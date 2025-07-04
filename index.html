@@ -1,67 +1,76 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8">
-  <title>Portfólio - Rafael Falleiros</title>
-  <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<title>Portfólio - Rafael Falleiros</title>
+<!-- Link para o arquivo  CSS externo -->
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="container">
-    <h1>Rafael Falleiros</h1>
-    
-    <nav class="menu">
-      <a href="#sobre">Sobre mim</a> |
-      <a href="#formacao">Formação</a> |
-      <a href="#portfolio">Portfólio</a> |
-      <a href="#contato">Contato</a> |
-      <a href="https://www.linkedin.com/in/rafael-falleiros-167786355/" target="_blank">
-          Meu LinkedIn
-        </a>
-          </nav>
+<div class="container">
+  <!-- Título principal do portfólio -->
+  <h1>Rafael Falleiros</h1>
+
+  <!-- Menu de navegação -->
+  <nav class="menu">
+    <a href="#sobre">Sobre mim</a> |
+    <a href="#formacao">Formação</a> |
+    <a href="#portfolio">Portfólio</a> |
+    <a href="#contato">Contato</a> |
+    <!-- Link externo para o LinkedIn -->
+    <a href="https://www.linkedin.com/in/rafael-falleiros-167786355/" target="_blank">
+    LinkedIn
+    </a>
+  </nav>
 
     <section id="sobre">
-      <h2>Sobre Mim</h2>
-      <p>Olá! Me chamo Rafael, sou estudante de Análise e Desenvolvimento de Sistemas. Pai de familia e Nerd de carteirinha. 
-        Gamer e apaixonado por cinema e cada vez mais apaixonado por programação.</p>
-    </section>
+    <h2>Sobre Mim</h2>
+    <p>Olá! Me chamo Rafael, sou estudante de Análise e Desenvolvimento de Sistemas. Pai de familia e Nerd de carteirinha. 
+    Gamer e apaixonado por cinema e cada vez mais apaixonado por programação.</p>
+  </section>
 
     <section id="formacao">
-      <h2>Formação e Idiomas</h2>
-      <ul>
-        <li>Curso: Análise e Desenvolvimento de Sistemas</li>
-        <li>Idiomas: Português (nativo), Inglês (intermediário - B2+), Estudando Francês</li>
-        <li>Experiencia com Manutenção de Hardware</li>
-        <li>Experiencia de +10 anos com gestão de empresa e pessoas</li>
-      </ul>
-    </section>
+    <h2>Formação e Idiomas</h2>
+    <ul>
+      <li>Curso: Análise e Desenvolvimento de Sistemas - Uninter</li>
+      <li>Python - Cisco Academy</li>
+      <li>Idiomas: Português (nativo), Inglês (intermediário - B2+), Estudando Francês</li>
+      <li>Experiência com Manutenção de Hardware</li>
+      <li>Experiência de +10 anos com gestão de empresa e pessoas</li>
+    </ul>
+  </section>
 
-    <section id="portfolio">
-      <h2>Portfólio</h2>
-      <ul>
-        <li><a href="https://github.com/pikenu1/Rafael" target="_blank">Página pessoal com HTML e CSS para portfólio</a></li>
-        <li><a href="https://pikenu1.github.io/aulta-pratica-2/" target="_blank">Aula Pratica 2 - 2024</a></li>
-      </ul>
-    </section>
+  <!-- Seção Portfólio com links para projetos -->
+  <section id="portfolio">
+    <h2>Portfólio</h2>
+    <ul>
+      <li><a href="https://pikenu1.github.io/aulta-pratica-2/" target="_blank">Aula Pratica 2 - 2024</a></li>
+      <li><a href="https://github.com/pikenu1/Rafael" target="_blank">Repositório no GitHub</a></li>
+    </ul>
+  </section>
 
-    <section id="contato">
-      <h2>Fale Comigo</h2>
-      <form>
-        <label>Nome:<br>
-          <input type="text" name="nome" required>
-        </label><br><br>
-        <label>Email:<br>
-          <input type="email" name="email" required>
-        </label><br><br>
-        <label>Mensagem:<br>
-          <textarea name="mensagem" required></textarea>
-        </label><br><br>
-        <button type="submit">Enviar</button>
-      </form>
-         </section>
-  </div>
-  <footer>
-    <p>Desenvolvido por Rafael Falleiros - <span id="ano"></span></p>
-  </footer>
-  <script src="java.js" defer></script>
+  <!-- formulário -->
+  <section id="contato">
+    <h2>Fale Comigo</h2>
+    <form>
+      <label>Nome:<br>
+        <input type="text" name="nome" required>
+      </label><br><br>
+      <label>Email:<br>
+        <input type="email" name="email" required>
+      </label><br><br>
+      <label>Mensagem:<br>
+        <textarea name="mensagem" required></textarea>
+      </label><br><br>
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+</div>
+<!-- Rodapé com o ano dinâmico  em js-->
+<footer>
+  <p>Desenvolvido por Rafael Falleiros - <span id="ano"></span></p>
+</footer>
+<!-- Script JavaScript externo -->
+<script src="java.js" defer></script>
 </body>
 </html>

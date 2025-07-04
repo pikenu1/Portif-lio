@@ -1,84 +1,119 @@
-
-html, body {
-  height: 100%;
+body {
   margin: 0;
   padding: 0;
+  font-family: Arial, sans-serif;
+  background: #e0e7ef;
+  color: #232946;
 }
 
-
-body {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  font-family: Verdana, sans-serif;
-  background: #fff url('imagens/peak.webp') center/cover no-repeat fixed;
-  color: #000;
-}
-
-/* Centraliza e limita a largura do conteúdo */
 .container {
-  flex: 1;
-  width: 90%;
+  width: 95%;
   max-width: 800px;
-  margin: 0 auto;
+  margin: 30px auto;
   padding: 20px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px #ccc;
 }
 
-/* Título centralizado */
 h1 {
   text-align: center;
-  color: #000000;
+  color: #232946;
+  margin-bottom: 20px;
 }
 
-/* Menu de navegação centralizado */
 .menu {
   text-align: center;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
 }
 
 .menu a {
   text-decoration: none;
-  color: #070506;
+  color: #232946;
   margin: 0 10px;
   font-weight: bold;
+  font-size: 1em;
+  padding: 6px 14px;
+  border-radius: 6px;
+  background: #f4f6fb;
 }
 
-/* Espaçamento entre seções */
+.menu a:hover {
+  background: #b8c6db;
+}
+
 section {
-  margin-bottom: 40px;
+  margin-bottom: 30px;
+  padding: 10px 0;
+  border-bottom: 1px solid #b8c6db;
 }
 
-/* Estilização dos campos do formulário */
-form input, form textarea {
+form input[name="nome"], form input[name="email"] {
+  width: 60%;
+}
+
+form textarea {
   width: 100%;
   padding: 8px;
-  margin-top: 5px;
-  border: 1px solid #1a1414;
-  border-radius: 4px;
+  margin-top: 6px;
+  border: 1px solid #b8c6db;
+  border-radius: 5px;
+  font-size: 1em;
+  background: #f4f6fb;
 }
 
-form input[type="text"],
-form input[type="email"] {
-  width: 50%; 
-  min-width: 120px;
-  display: block;
+form input {
+  padding: 8px;
+  margin-top: 6px;
+  border: 1px solid #b8c6db;
+  border-radius: 5px;
+  font-size: 1em;
+  background: #f4f6fb;
 }
 
 button {
-  background-color: #004466;
-  color: white;
-  padding: 10px 20px;
+  background: #232946;
+  color: #fff;
+  padding: 10px 24px;
   border: none;
   margin-top: 10px;
   cursor: pointer;
-  border-radius: 4px;
+  border-radius: 5px;
+  font-size: 1em;
+  font-weight: bold;
 }
 
-/* Footer sempre no final da página */
+button:hover {
+  background: #b8c6db;
+  color: #232946;
+}
+
 footer {
-  background: #222;
+  background: #232946;
   color: #fff;
   text-align: center;
-  padding: 10px 0;
-  margin-top: auto;
+  padding: 12px 0;
+  margin-top: 30px;
+  font-size: 1em;
+}
+
+.linkedin-btn {
+  text-align: center;
+  margin-top: 12px;
+}
+
+.linkedin-btn a {
+  display: inline-block;
+  background: #0077b5;
+  color: #fff;
+  padding: 8px 18px;
+  border-radius: 5px;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 1em;
+}
+
+.linkedin-btn a:hover {
+  background: #00c6ff;
+  color: #232946;
 }
