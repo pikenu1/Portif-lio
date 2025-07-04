@@ -11,13 +11,8 @@ body {
   display: flex;
   flex-direction: column;
   font-family: Verdana, sans-serif;
-  background-color: #ffffff;
-  color: #000000;
-  background-image: url('imagens/mariobg.webp');
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-attachment: fixed;
+  background: #fff url('imagens/peak.webp') center/cover no-repeat fixed;
+  color: #000;
 }
 
 /* Centraliza e limita a largura do conteúdo */
